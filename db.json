@@ -1,31 +1,31 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "backgStory" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br></br> Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+  "files" : [ {
+    "icon" : "VideoIcon",
+    "id" : "v7fAa54l2trU",
+    "link" : "/files/games/816/39b8efd4717a4027c0a0e78fcff882af30c9dc19.docx",
+    "show" : 1,
+    "title" : "Intro video.mpeg",
+    "type" : "video"
+  }, {
+    "icon" : "SoundIcon",
+    "id" : "v7fAa54l2trU1",
+    "link" : "",
+    "show" : 1,
+    "title" : "sound.mpeg",
+    "type" : "sound"
+  }, {
+    "icon" : "PhotoIcon",
+    "id" : "v7fAa54l2trU2",
+    "link" : "",
+    "show" : 1,
+    "title" : "photo.jpg",
+    "type" : "photo"
+  } ],
+  "name" : "Simulation Name",
+  "players" : {
+    "realPlayers" : [ "Airline CEO", "Passenger 1", "Prime Minister", "Passenger 2", "President" ],
+    "representedPlayers" : [ "Army", "Police" ]
+  },
+  "startTime" : "Mon. 23 Jan, 2020"
 }
